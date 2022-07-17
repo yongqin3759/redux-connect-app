@@ -34,6 +34,21 @@
       "content": "goodbye",
       "important": false,
       "id": 7
+    },
+    {
+      "content": "hello",
+      "important": false,
+      "id": 8
+    },
+    {
+      "content": "inorio",
+      "important": false,
+      "id": 9
+    },
+    {
+      "content": "hello note!",
+      "important": false,
+      "id": 10
     }
   ]
 }
