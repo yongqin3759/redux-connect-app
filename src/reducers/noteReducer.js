@@ -43,7 +43,7 @@ export const createNote = (content) => {
 export const toggleImportanceOf = (id) => {
   return async dispatch => {
     await noteService.toggleImportance(id)
-    dispatch(toggleImportanceOf(id))
+    dispatch(toggleImportance(id))
   }
 }
 

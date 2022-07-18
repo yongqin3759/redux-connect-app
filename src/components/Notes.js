@@ -17,9 +17,7 @@ const Notes = (props) => {
         <Note
           key={note.id}
           note={note}
-          handleClick={() => {
-            props.toggleImportanceOf(note.id)
-          }}
+          handleClick={() => props.toggleImportanceOf(note.id)}
         />
       )}
     </ul>
@@ -40,7 +38,7 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = {
-  toggleImportanceOf,
+  toggleImportanceOf
 }
 
 const ConnectedNotes = connect(

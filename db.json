@@ -2,12 +2,12 @@
   "notes": [
     {
       "content": "the app state is in redux store",
-      "important": true,
+      "important": false,
       "id": 1
     },
     {
       "content": "state changes are made with actions",
-      "important": true,
+      "important": false,
       "id": 2
     },
     {
@@ -47,8 +47,18 @@
     },
     {
       "content": "hello note!",
-      "important": false,
+      "important": true,
       "id": 10
+    },
+    {
+      "content": "tiff",
+      "important": true,
+      "id": 11
+    },
+    {
+      "content": "helloworld",
+      "important": true,
+      "id": 12
     }
   ]
 }
